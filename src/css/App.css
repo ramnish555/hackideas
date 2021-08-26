@@ -1,0 +1,87 @@
+.login-form{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.login-form form {
+  background: #f7f7f7;
+  box-shadow: 0rem 0.3rem 0.3rem rgb(0 0 0 / 30%);
+  padding: 3rem;
+}
+
+.login-form h2 {
+  margin: 0 0 2.5rem;
+}
+
+.login{
+  width: 100%;
+}
+
+form{
+  text-align: center;
+}
+
+form.d-flex .btn {
+  margin: 0 0.5rem;
+}
+
+.card-footer{
+  border: 0px !important;
+  padding: 0rem 1rem !important;
+}
+
+.card-header{
+  border: 0px !important;
+  padding: 0.5rem 1rem !important;
+}
+
+.card-body{
+  padding: 0rem 1rem !important;
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card{
+  margin: 1rem;
+  width: 18rem;
+}
+
+.vote{
+  display: flex;
+}
+
+.vote-count{
+  display: flex;
+  margin: 0px 0.2rem;
+}
+
+.last{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.5rem !important;
+}
+
+input.form-control {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 0.5rem !important;
+}
+
+.sort{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-sort{
+  margin: 0.5rem;
+}
